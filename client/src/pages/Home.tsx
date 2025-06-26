@@ -8,6 +8,7 @@ import { motion } from "framer-motion"
 import { AnimatedButton } from "@/components/AnimatedButton"
 import { downloadResume } from "@/api/resume"
 import { useToast } from "@/hooks/useToast"
+import {Link} from "react-router-dom";
 
 const stats = [
   { label: "Projects Completed", value: "2+" },
@@ -148,7 +149,7 @@ export function Home() {
         </h2>
         {/* @ts-expect-error type error*/}
         <AnimatedButton variant="outline" asChild>
-          <a href="/contact">Contact Me</a>
+          <Link to="/contact">Contact Me</Link>
         </AnimatedButton>
       </section>
     </div>

@@ -4,6 +4,7 @@ import { SkillCategory } from "@/components/SkillCategory"
 import { SkillRadar } from "@/components/SkillRadar"
 import { AdditionalSkills } from "@/components/AdditionalSkills"
 import { Mail } from "lucide-react"
+import {Link} from "react-router-dom";
 
 const skillCategories = [
   {
@@ -155,10 +156,10 @@ export function Skills() {
               className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg hover:shadow-xl transition-all duration-300"
               asChild
             >
-              <a href="/contact">
+              <Link to="/contact">
                 <Mail className="mr-2 h-4 w-4" />
                 Get in Touch
-              </a>
+              </Link>
             </Button>
           </motion.div>
         </div>

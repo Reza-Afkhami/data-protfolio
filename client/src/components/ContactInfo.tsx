@@ -5,25 +5,25 @@ const contactDetails = [
   {
     icon: Mail,
     label: "Email",
-    value: "harshgup11@gmail.com",
-    href: "mailto:harshgup11@gmail.com",
+    value: "rezaafk021@gmail.com",
+    href: "mailto:rezaafk021@gmail.com",
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+91 7742469302",
-    href: "tel:+917742469302",
+    value: "+44 7557898016",
+    href: "tel:+447557898016",
   },
   {
     icon: Github,
     label: "Github",
-    value: "harshgupta1810",
-    href: "https://github.com/harshgupta1810",
+    value: "Reza-Afkhami",
+    href: "https://github.com/Reza-Afkhami",
   },
   {
     icon: MapPin,
     label: "Location",
-    value: "Jaipur, India",
+    value: "Uk, London",
     href: "#",
   },
 ]
@@ -32,12 +32,12 @@ const socialLinks = [
   {
     icon: Github,
     label: "GitHub",
-    href: "https://github.com/harshgupta1810",
+    href: "https://github.com/Reza-Afkhami",
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/harsh-gupta-52465a204/",
+    href: "https://www.linkedin.com/in/reza-afkhami-a6276a332/",
   },
 ]
 

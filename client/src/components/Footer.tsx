@@ -13,17 +13,17 @@ const navigation = [
 const socialLinks = [
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/in/harsh-gupta-52465a204/",
+    href: "https://linkedin.com/in/reza-afkhami-a6276a332",
     icon: Linkedin,
   },
   {
     name: "GitHub",
-    href: "https://github.com/harshgupta1810",
+    href: "https://github.com/Reza-Afkhami",
     icon: Github,
   },
   {
     name: "Kaggle",
-    href: "https://www.kaggle.com/desperateenuf",
+    href: "https://www.kaggle.com/rezaafk",
     icon: Database,
   },
 ]

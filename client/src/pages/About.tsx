@@ -12,6 +12,7 @@ import {
   Share2,
 } from "lucide-react"
 import profileImage from "/profile.jpg"
+import {Link} from "react-router-dom";
 
 const interests = [
   {
@@ -148,7 +149,7 @@ export function About() {
       <section className="text-center space-y-6">
         <h2 className="text-3xl font-bold">Want to Know More?</h2>
         <Button size="lg" asChild>
-          <a href="/projects">View My Projects</a>
+          <Link to="/projects">View My Projects</Link>
         </Button>
       </section>
     </div>

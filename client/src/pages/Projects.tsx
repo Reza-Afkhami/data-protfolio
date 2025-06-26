@@ -5,6 +5,7 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Search } from "lucide-react"
+import {Link} from "react-router-dom";
 
 type Project = {
   id: number
@@ -454,7 +455,7 @@ export function Projects() {
           I'm always open to discussing new projects and opportunities.
         </p>
         <Button size="lg" asChild>
-          <a href="/contact">Get in Touch</a>
+          <Link to="/contact">Get in Touch</Link>
         </Button>
       </section>
     </div>

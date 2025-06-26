@@ -10,6 +10,7 @@ import { downloadResume } from "@/api/resume"
 import { useState } from "react"
 import { useToast } from "@/hooks/useToast"
 import {AnimatedButton} from "@/components/AnimatedButton.tsx";
+import {Link} from "react-router-dom";
 export function Experience() {
   const { toast } = useToast()
   const [isDownloading, setIsDownloading] = useState(false)
@@ -123,10 +124,10 @@ export function Experience() {
                 {isDownloading ? "Downloading..." : "Download Resume"}
             </AnimatedButton>
           <Button size="lg" variant="outline" asChild>
-            <a href="/contact">
+            <Link to="/contact">
               <Mail className="mr-2 h-4 w-4" />
               Contact Me
-            </a>
+            </Link>
           </Button>
         </div>
       </section>
